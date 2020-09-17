@@ -1,0 +1,35 @@
+2020-08-26T09:12:32+00:00 CRITICAL Cannot redeclare cias_add_woocommerce_support() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:4) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 33
+
+2020-08-26T09:13:50+00:00 CRITICAL Cannot redeclare cias_add_woocommerce_support() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:4) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 33
+
+2020-08-26T09:13:51+00:00 CRITICAL Cannot redeclare cias_add_woocommerce_support() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:4) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 33
+
+2020-08-26T09:14:44+00:00 CRITICAL Cannot redeclare cias_add_woocommerce_support() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:4) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 33
+
+2020-08-26T09:14:45+00:00 CRITICAL Cannot redeclare cias_add_woocommerce_support() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:4) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 33
+
+2020-08-26T09:15:52+00:00 CRITICAL Cannot redeclare cias_add_woocommerce_support() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:4) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 33
+
+2020-08-26T09:15:53+00:00 CRITICAL Cannot redeclare cias_add_woocommerce_support() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:4) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 33
+
+2020-08-26T09:16:23+00:00 CRITICAL Cannot redeclare cias_admin_style() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:11) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 44
+
+2020-08-26T09:16:23+00:00 CRITICAL Cannot redeclare cias_admin_style() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:11) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 44
+
+2020-08-26T09:16:58+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 31
+
+2020-08-26T09:16:59+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 31
+
+2020-08-26T09:17:23+00:00 CRITICAL Cannot redeclare cias_add_woocommerce_support() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:4) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 33
+
+2020-08-26T09:17:24+00:00 CRITICAL Cannot redeclare cias_add_woocommerce_support() (previously declared in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/includes/functions.php:4) in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/functions.php on line 33
+
+2020-08-26T09:24:22+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+

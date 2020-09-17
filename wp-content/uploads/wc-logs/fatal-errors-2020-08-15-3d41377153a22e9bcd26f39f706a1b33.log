@@ -1,0 +1,11 @@
+2020-08-15T09:21:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_short_description() in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/content-product.php:126
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/template.php(732): require()
+#1 /home/pddbmuxshosting/public_html/cias/wp-content/plugins/woocommerce/includes/wc-core-functions.php(283): load_template('/home/pddbmuxsh...', false)
+#2 /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/archive-product.php(156): wc_get_template_part('content', 'product')
+#3 /home/pddbmuxshosting/public_html/cias/wp-includes/template-loader.php(106): include('/home/pddbmuxsh...')
+#4 /home/pddbmuxshosting/public_html/cias/wp-blog-header.php(19): require_once('/home/pddbmuxsh...')
+#5 /home/pddbmuxshosting/public_html/cias/index.php(17): require('/home/pddbmuxsh...')
+#6 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/content-product.php on line 126
+

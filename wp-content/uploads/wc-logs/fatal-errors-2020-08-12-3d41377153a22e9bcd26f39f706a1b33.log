@@ -1,0 +1,56 @@
+2020-08-12T18:34:38+00:00 CRITICAL syntax error, unexpected ''category_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/single.php on line 33
+
+2020-08-12T21:26:18+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php on line 48
+
+2020-08-12T21:27:00+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php on line 67
+
+2020-08-12T21:27:26+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php on line 67
+
+2020-08-12T22:03:24+00:00 CRITICAL Uncaught Error: Call to undefined function is_font_page() in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php:33
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/template-loader.php(106): include()
+#1 /home/pddbmuxshosting/public_html/cias/wp-blog-header.php(19): require_once('/home/pddbmuxsh...')
+#2 /home/pddbmuxshosting/public_html/cias/index.php(17): require('/home/pddbmuxsh...')
+#3 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php on line 33
+
+2020-08-12T22:03:30+00:00 CRITICAL Uncaught Error: Call to undefined function is_font_page() in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php:33
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/template-loader.php(106): include()
+#1 /home/pddbmuxshosting/public_html/cias/wp-blog-header.php(19): require_once('/home/pddbmuxsh...')
+#2 /home/pddbmuxshosting/public_html/cias/index.php(17): require('/home/pddbmuxsh...')
+#3 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php on line 33
+
+2020-08-12T22:03:33+00:00 CRITICAL Uncaught Error: Call to undefined function is_font_page() in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php:33
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/template-loader.php(106): include()
+#1 /home/pddbmuxshosting/public_html/cias/wp-blog-header.php(19): require_once('/home/pddbmuxsh...')
+#2 /home/pddbmuxshosting/public_html/cias/index.php(17): require('/home/pddbmuxsh...')
+#3 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php on line 33
+
+2020-08-12T22:03:35+00:00 CRITICAL Uncaught Error: Call to undefined function is_font_page() in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php:33
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/template-loader.php(106): include()
+#1 /home/pddbmuxshosting/public_html/cias/wp-blog-header.php(19): require_once('/home/pddbmuxsh...')
+#2 /home/pddbmuxshosting/public_html/cias/index.php(17): require('/home/pddbmuxsh...')
+#3 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php on line 33
+
+2020-08-12T22:03:39+00:00 CRITICAL Uncaught Error: Call to undefined function is_font_page() in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php:33
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/template-loader.php(106): include()
+#1 /home/pddbmuxshosting/public_html/cias/wp-blog-header.php(19): require_once('/home/pddbmuxsh...')
+#2 /home/pddbmuxshosting/public_html/cias/index.php(17): require('/home/pddbmuxsh...')
+#3 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php on line 33
+
+2020-08-12T22:03:41+00:00 CRITICAL Uncaught Error: Call to undefined function is_font_page() in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php:33
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/template-loader.php(106): include()
+#1 /home/pddbmuxshosting/public_html/cias/wp-blog-header.php(19): require_once('/home/pddbmuxsh...')
+#2 /home/pddbmuxshosting/public_html/cias/index.php(17): require('/home/pddbmuxsh...')
+#3 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/themes/theretailer-child/page.php on line 33
+

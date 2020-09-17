@@ -1,0 +1,55 @@
+[27-Aug-2020 02:10:15 UTC] PHP Notice:  Undefined variable: product_id in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 100
+[27-Aug-2020 02:10:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+[27-Aug-2020 02:10:18 UTC] PHP Notice:  Undefined variable: product_id in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 100
+[27-Aug-2020 02:10:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+[27-Aug-2020 02:10:37 UTC] PHP Notice:  register_rest_route được gọi là <strong>không chính xác</strong>. The REST API route definition for <code>if-menu/v1/did-you-made-this-request</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 5.5.0.) in /home/pddbmuxshosting/public_html/cias/wp-includes/functions.php on line 5225
+[27-Aug-2020 02:10:40 UTC] PHP Notice:  register_rest_route được gọi là <strong>không chính xác</strong>. The REST API route definition for <code>if-menu/v1/did-you-made-this-request</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 5.5.0.) in /home/pddbmuxshosting/public_html/cias/wp-includes/functions.php on line 5225
+[27-Aug-2020 02:10:48 UTC] PHP Notice:  Undefined variable: product_id in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 100
+[27-Aug-2020 02:10:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+[27-Aug-2020 02:29:39 UTC] PHP Notice:  register_rest_route được gọi là <strong>không chính xác</strong>. The REST API route definition for <code>if-menu/v1/did-you-made-this-request</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 5.5.0.) in /home/pddbmuxshosting/public_html/cias/wp-includes/functions.php on line 5225
+[27-Aug-2020 02:50:04 UTC] PHP Notice:  Undefined variable: product_id in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 100
+[27-Aug-2020 02:50:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+[27-Aug-2020 02:50:05 UTC] PHP Notice:  Undefined property: Vc_Updater::$title in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updating-manager.php on line 99
+[27-Aug-2020 02:50:09 UTC] PHP Notice:  Undefined property: Vc_Updater::$title in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updating-manager.php on line 99
+[27-Aug-2020 02:50:13 UTC] PHP Notice:  Undefined property: Vc_Updater::$title in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updating-manager.php on line 99
+[27-Aug-2020 02:52:22 UTC] PHP Notice:  register_rest_route được gọi là <strong>không chính xác</strong>. The REST API route definition for <code>if-menu/v1/did-you-made-this-request</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 5.5.0.) in /home/pddbmuxshosting/public_html/cias/wp-includes/functions.php on line 5225
+[27-Aug-2020 02:56:09 UTC] PHP Notice:  Undefined variable: product_id in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 100
+[27-Aug-2020 02:56:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+[27-Aug-2020 03:06:07 UTC] PHP Notice:  register_rest_route được gọi là <strong>không chính xác</strong>. The REST API route definition for <code>if-menu/v1/did-you-made-this-request</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 5.5.0.) in /home/pddbmuxshosting/public_html/cias/wp-includes/functions.php on line 5225
+[27-Aug-2020 03:06:11 UTC] PHP Notice:  register_rest_route được gọi là <strong>không chính xác</strong>. The REST API route definition for <code>if-menu/v1/did-you-made-this-request</code> is missing the required <code>permission_callback</code> argument. For REST API routes that are intended to be public, use <code>__return_true</code> as the permission callback. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 5.5.0.) in /home/pddbmuxshosting/public_html/cias/wp-includes/functions.php on line 5225
+[27-Aug-2020 03:26:16 UTC] PHP Deprecated:  WP_Query được gọi với một tham số đã bị <strong>loại bỏ</strong> kể từ phiên bản 3.1.0! Hãy sử dụng <code>ignore_sticky_posts</code> thay cho <code>caller_get_posts</code> (sẽ sớm bị loại bỏ) in /home/pddbmuxshosting/public_html/cias/wp-includes/functions.php on line 5057

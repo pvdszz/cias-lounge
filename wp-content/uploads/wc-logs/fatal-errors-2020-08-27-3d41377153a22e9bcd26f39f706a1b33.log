@@ -1,0 +1,45 @@
+2020-08-27T02:10:15+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+
+2020-08-27T02:10:18+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+
+2020-08-27T02:10:48+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+
+2020-08-27T02:50:04+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+
+2020-08-27T02:56:09+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php:101
+Stack trace:
+#0 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(287): Cias_Public->checking_handle('')
+#1 /home/pddbmuxshosting/public_html/cias/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/pddbmuxshosting/public_html/cias/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/pddbmuxshosting/public_html/cias/wp-admin/admin-ajax.php(176): do_action('wp_ajax_check_c...')
+#4 {main}
+  thrown in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/cias/public/class-cias-public.php on line 101
+

@@ -1,0 +1,947 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:05:56
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.10                                |7.4.7
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-09-17 03:36:22
+WP VERSION__________: 5.5.1
+DUP VERSION_________: 1.3.36
+DB__________________: 10.3.24
+DB TABLES___________: 73
+DB ROWS_____________: 8,848
+DB FILE SIZE________: 12.26MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.7 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.7
+DOC ROOT____________: "E:/xampp/htdocs/cias-clone"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/cias-clone/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/xampp/htdocs/cias-clone/20200831_cias_[HASH]_20200917033622_archive.daf"
+SIZE________________: 280.72MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 04:05:56 - RUNTIME: 0.0033 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:08:40
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.13 -- Build Server: 10.3.24
+FILE SIZE:	dup-database__[HASH].sql (5.82MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[E:/xampp/htdocs/cias-clone/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:E:\xampp\htdocs\cias-clone\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:392]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	640
+
+cias_actionscheduler_actions: (87)
+cias_actionscheduler_claims: (0)
+cias_actionscheduler_groups: (5)
+cias_actionscheduler_logs: (261)
+cias_commentmeta: (2)
+cias_comments: (383)
+cias_duplicator_packages: (0)
+cias_links: (0)
+cias_options: (403)
+cias_orderextra: (6)
+cias_postmeta: (3917)
+cias_posts: (590)
+cias_price_for_each_person: (1)
+cias_revslider_css: (109)
+cias_revslider_css_bkp: (47)
+cias_revslider_layer_animations: (0)
+cias_revslider_layer_animations_bkp: (0)
+cias_revslider_navigations: (0)
+cias_revslider_navigations_bkp: (0)
+cias_revslider_sliders: (0)
+cias_revslider_sliders_bkp: (0)
+cias_revslider_slides: (0)
+cias_revslider_slides_bkp: (0)
+cias_revslider_static_slides: (0)
+cias_revslider_static_slides_bkp: (0)
+cias_term_relationships: (71)
+cias_term_taxonomy: (28)
+cias_termmeta: (5)
+cias_terms: (28)
+cias_usermeta: (214)
+cias_users: (5)
+cias_wc_admin_note_actions: (12)
+cias_wc_admin_notes: (9)
+cias_wc_category_lookup: (2)
+cias_wc_customer_lookup: (8)
+cias_wc_download_log: (0)
+cias_wc_order_coupon_lookup: (1)
+cias_wc_order_product_lookup: (68)
+cias_wc_order_stats: (52)
+cias_wc_order_tax_lookup: (0)
+cias_wc_product_meta_lookup: (5)
+cias_wc_reserved_stock: (0)
+cias_wc_tax_rate_classes: (2)
+cias_wc_webhooks: (0)
+cias_woocommerce_api_keys: (0)
+cias_woocommerce_attribute_taxonomies: (2)
+cias_woocommerce_downloadable_product_permissions: (0)
+cias_woocommerce_log: (0)
+cias_woocommerce_order_itemmeta: (745)
+cias_woocommerce_order_items: (69)
+cias_woocommerce_payment_tokenmeta: (0)
+cias_woocommerce_payment_tokens: (0)
+cias_woocommerce_sessions: (1)
+cias_woocommerce_shipping_zone_locations: (0)
+cias_woocommerce_shipping_zone_methods: (0)
+cias_woocommerce_shipping_zones: (0)
+cias_woocommerce_tax_rate_locations: (0)
+cias_woocommerce_tax_rates: (0)
+cias_woodmart_wishlist_products: (0)
+cias_woodmart_wishlists: (2)
+cias_wpmailsmtp_tasks_meta: (15)
+sh_commentmeta: (0)
+sh_comments: (0)
+sh_links: (0)
+sh_options: (167)
+sh_postmeta: (285)
+sh_posts: (127)
+sh_term_relationships: (22)
+sh_term_taxonomy: (9)
+sh_termmeta: (0)
+sh_terms: (9)
+sh_usermeta: (38)
+sh_users: (2)
+Removed '60' cache/transient rows
+
+INSERT DATA RUNTIME: 4.0418 sec.
+STEP-2 COMPLETE @ 04:08:44 - RUNTIME: 4.0541 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:08:50
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "CÔNG TY CỔ PHẦN DỊCH VỤ SÂN BAY QUỐC TẾ CAM RANH | CIAS"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/nhstjitk/cias.stjsc.vn"
+path_new______________: "E:/xampp/htdocs/cias-clone"
+siteurl_______________: "http://localhost/cias-clone"
+url_old_______________: "http://cias.stjsc.vn"
+url_new_______________: "http://localhost/cias-clone"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "cias_actionscheduler_actions"____________________[ROWS:    87][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_actionscheduler_groups"_____________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_actionscheduler_logs"_______________________[ROWS:   261][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_commentmeta"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_comments"___________________________________[ROWS:   383][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_options"____________________________________[ROWS:   403][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_orderextra"_________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_postmeta"___________________________________[ROWS:  3917][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_posts"______________________________________[ROWS:   590][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_price_for_each_person"______________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_revslider_css"______________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_revslider_css_bkp"__________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_revslider_layer_animations"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_revslider_layer_animations_bkp"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_revslider_navigations"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_revslider_navigations_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_revslider_sliders"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_revslider_sliders_bkp"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_revslider_slides"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_revslider_slides_bkp"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_revslider_static_slides"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_revslider_static_slides_bkp"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_term_relationships"_________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_term_taxonomy"______________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_termmeta"___________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_terms"______________________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_usermeta"___________________________________[ROWS:   214][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_users"______________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wc_admin_note_actions"______________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wc_admin_notes"_____________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wc_category_lookup"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wc_customer_lookup"_________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wc_download_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_wc_order_coupon_lookup"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wc_order_product_lookup"____________________[ROWS:    68][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wc_order_stats"_____________________________[ROWS:    52][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wc_order_tax_lookup"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_wc_product_meta_lookup"_____________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wc_reserved_stock"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_wc_tax_rate_classes"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wc_webhooks"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woocommerce_api_keys"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woocommerce_attribute_taxonomies"___________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woocommerce_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woocommerce_order_itemmeta"_________________[ROWS:   745][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_woocommerce_order_items"____________________[ROWS:    69][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_woocommerce_payment_tokenmeta"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woocommerce_payment_tokens"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woocommerce_sessions"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_woocommerce_shipping_zone_locations"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woocommerce_shipping_zone_methods"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woocommerce_shipping_zones"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woocommerce_tax_rate_locations"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woocommerce_tax_rates"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woodmart_wishlist_products"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "cias_woodmart_wishlists"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "cias_wpmailsmtp_tasks_meta"______________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "sh_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sh_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sh_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sh_options"______________________________________[ROWS:   167][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "sh_postmeta"_____________________________________[ROWS:   285][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "sh_posts"________________________________________[ROWS:   127][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "sh_term_relationships"___________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "sh_term_taxonomy"________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "sh_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sh_terms"________________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "sh_usermeta"_____________________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+
+EVALUATE TABLE: "sh_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nhstjitk/cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  2:"\/home\/nhstjitk\/cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  3:"%2Fhome%2Fnhstjitk%2Fcias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  4:"\home\nhstjitk\cias.stjsc.vn" ====================> "E:/xampp/htdocs/cias-clone"
+	SEARCH  5:"\\home\\nhstjitk\\cias.stjsc.vn" =================> "E:\/xampp\/htdocs\/cias-clone"
+	SEARCH  6:"%5Chome%5Cnhstjitk%5Ccias.stjsc.vn" ==============> "E%3A%2Fxampp%2Fhtdocs%2Fcias-clone"
+	SEARCH  7:"//cias.stjsc.vn" =================================> "//localhost/cias-clone"
+	SEARCH  8:"\/\/cias.stjsc.vn" ===============================> "\/\/localhost\/cias-clone"
+	SEARCH  9:"%2F%2Fcias.stjsc.vn" =============================> "%2F%2Flocalhost%2Fcias-clone"
+	SEARCH 10:"https://localhost/cias-clone" ====================> "http://localhost/cias-clone"
+	SEARCH 11:"https:\/\/localhost\/cias-clone" =================> "http:\/\/localhost\/cias-clone"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcias-clone" ============> "http%3A%2F%2Flocalhost%2Fcias-clone"
+--------------------------------------
+SCANNED:	Tables:73 	|	 Rows:7813 	|	 Cells:51775 
+UPDATED:	Tables:5 	|	 Rows:678 	|	 Cells:759 
+ERRORS:		0 
+RUNTIME:	1.051000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""cias_clone""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 04:08:51 - RUNTIME: 1.1507 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================

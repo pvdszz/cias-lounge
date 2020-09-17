@@ -1,0 +1,12 @@
+2020-08-13T03:08:03+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php on line 52
+
+2020-08-13T03:08:30+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php on line 52
+
+2020-08-13T03:08:42+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php on line 52
+
+2020-08-13T04:19:03+00:00 CRITICAL syntax error, unexpected end of file in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/woocommerce/templates/checkout/form-login.php on line 34
+
+2020-08-13T08:34:08+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/woocommerce/templates/checkout/form-login.php on line 25
+
+2020-08-13T08:34:38+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/pddbmuxshosting/public_html/cias/wp-content/plugins/woocommerce/templates/checkout/form-login.php on line 25
+
